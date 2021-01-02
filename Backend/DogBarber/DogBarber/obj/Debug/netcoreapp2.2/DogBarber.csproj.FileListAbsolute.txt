@@ -1,0 +1,14 @@
+C:\Users\osher\source\repos\DogBarber\DogBarber\bin\Debug\netcoreapp2.2\DogBarber.deps.json
+C:\Users\osher\source\repos\DogBarber\DogBarber\bin\Debug\netcoreapp2.2\DogBarber.runtimeconfig.json
+C:\Users\osher\source\repos\DogBarber\DogBarber\bin\Debug\netcoreapp2.2\DogBarber.runtimeconfig.dev.json
+C:\Users\osher\source\repos\DogBarber\DogBarber\bin\Debug\netcoreapp2.2\DogBarber.dll
+C:\Users\osher\source\repos\DogBarber\DogBarber\bin\Debug\netcoreapp2.2\DogBarber.pdb
+C:\Users\osher\source\repos\DogBarber\DogBarber\obj\Debug\netcoreapp2.2\DogBarber.csproj.CoreCompileInputs.cache
+C:\Users\osher\source\repos\DogBarber\DogBarber\obj\Debug\netcoreapp2.2\DogBarber.RazorAssemblyInfo.cache
+C:\Users\osher\source\repos\DogBarber\DogBarber\obj\Debug\netcoreapp2.2\DogBarber.RazorAssemblyInfo.cs
+C:\Users\osher\source\repos\DogBarber\DogBarber\obj\Debug\netcoreapp2.2\DogBarber.AssemblyInfoInputs.cache
+C:\Users\osher\source\repos\DogBarber\DogBarber\obj\Debug\netcoreapp2.2\DogBarber.AssemblyInfo.cs
+C:\Users\osher\source\repos\DogBarber\DogBarber\obj\Debug\netcoreapp2.2\DogBarber.RazorTargetAssemblyInfo.cache
+C:\Users\osher\source\repos\DogBarber\DogBarber\obj\Debug\netcoreapp2.2\DogBarber.dll
+C:\Users\osher\source\repos\DogBarber\DogBarber\obj\Debug\netcoreapp2.2\DogBarber.pdb
+C:\Users\osher\source\repos\DogBarber\DogBarber\obj\Debug\netcoreapp2.2\DogBarber.csprojAssemblyReference.cache
