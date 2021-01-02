@@ -1,0 +1,15 @@
+
+
+.h2, h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    font-style: oblique;
+    text-decoration: underline;
+}
+.btn-block { 
+    width: auto!important;
+}
+
+button[type=submit].btn {
+    margin: 0px 155px;
+}

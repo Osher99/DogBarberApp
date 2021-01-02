@@ -1,0 +1,35 @@
+<br>
+<div class="container">
+  <div class="row" style="justify-content: center;">
+    <h2>Set new Appointment:</h2>  
+  </div>
+  <hr>
+    <div class="row" style="justify-content: center">
+    <label style="color: black; font-weight: bold; text-align: center;">First Name: {{this.userDetails.FirstName}}</label><br>
+  </div>
+  <form [formGroup]="appointmentService.formModel" autocomplete="off" (submit)="onSubmit()">
+      <div style="text-align: center" class="form-group">  
+        <div class="row" style="justify-content: center">
+          <label style=" color: black; text-align: center;">Appointment Date:</label> 
+        </div>   
+        <ngb-datepicker #dp formControlName="AppointmentDate" #date="ngbDatepicker" required 
+        (ngModelChange)="onDateSelect(date)" style="margin: 0px 20px 0px 25px;"></ngb-datepicker>
+<!-- <button class="btn btn-sm btn-outline-primary mr-2" (click)="selectToday()">Select Today</button> -->
+      </div>
+
+      <div class="form-row" style="justify-content: center">
+        <div  style="text-align: center" class="form-group">  
+          <select class="custom-select" formControlName="AppointmentHour">
+            <option value="" disabled>Choose your hour</option>
+            <option *ngFor="let hour of this.hourList" [ngValue]="hour">{{hour}}</option>
+         </select>
+        </div>
+      </div>
+      <hr/>
+          <div class="form-row" style="justify-content: center">
+            <div class="form-group col-md-8 offset-md-2"> 
+              <button type="submit" class="btn btn-lg btn-block" [disabled]="!appointmentService.formModel.valid">Add new Appointment</button>
+            </div>
+          </div>
+  </form>
+</div>
